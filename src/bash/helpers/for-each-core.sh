@@ -19,10 +19,8 @@ LOOP_COMMAND="$(cat)"
 
 CORE_IDS=$(bash $LIST_COMMAND)
 
-debug "$CORE_IDS"
-
 for core_id in $(echo $CORE_IDS); do
-    debug $core_id
+    debug "FOR-EACH-CORE: $core_id"
     source $INFO_COMMAND $core_id
 
     eval "$LOOP_COMMAND"

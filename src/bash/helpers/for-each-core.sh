@@ -12,10 +12,8 @@
 
 source init-retroarch-helpers.sh
 
-# The for loop loses the directory context, so we need to cache the full path
-LIST_COMMAND=$RETROARCH_HELPERS/list-core-ids.sh
 INFO_COMMAND=$RETROARCH_HELPERS/read-core-vars.sh
-
+LIST_COMMAND=$RETROARCH_HELPERS/list-core-ids.sh
 LOOP_COMMAND="$(cat)"
 
 CORE_IDS=$(bash $LIST_COMMAND)

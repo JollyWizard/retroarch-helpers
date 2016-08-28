@@ -30,7 +30,7 @@ if [ -z "$RETROARCH_HELPERS" ]; then
     source build-systems-list.sh
     source build-platforms-list.sh
 
-    debug SETUP: Retroarch-Helpers
+    debug COMPLETE:init-retroarch-helpers.sh
 
 fi
 

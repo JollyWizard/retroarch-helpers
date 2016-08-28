@@ -3,7 +3,7 @@
 # For each core command:
 # Lists the unique system names by browsing the cores and appending names that have not been found.
 loop='
-echo "$systems" | grep --quiet "${core_systemname}"
+echo "$systems" | grep --quiet -P "(?<=\")${core_systemname}"
 found=$?
 
 if [ $found = 1 ];then

@@ -5,7 +5,7 @@
 #
 # USAGE:
 #   source init-retroarch-helpers.sh
-###
+
 
 debug() {
     if [ "$DEBUG" ]; then
@@ -24,7 +24,7 @@ debug_eval() {
 
 if [ -z "$RETROARCH_HELPERS" ]; then
 
-    export RETROARCH_HELPERS=1
+    export RETROARCH_HELPERS=`pwd`
 
     source find-retroarch-dirs.sh
 

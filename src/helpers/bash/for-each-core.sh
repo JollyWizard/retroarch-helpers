@@ -2,10 +2,9 @@
 
 source init-retroarch-helpers.sh
 
-#TODO fix the hacky inability to locate command (maybe install is mandatory)
-
-LIST_COMMAND=`pwd`/list-core-ids.sh
-INFO_COMMAND=`pwd`/read-core-vars.sh
+# The for loop loses the directory context, so we need to cache the full path
+LIST_COMMAND=$RETROARCH_HELPERS/list-core-ids.sh
+INFO_COMMAND=$RETROARCH_HELPERS/read-core-vars.sh
 
 LOOP_COMMAND="$(cat)"
 

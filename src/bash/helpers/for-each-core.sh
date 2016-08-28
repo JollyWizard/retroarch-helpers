@@ -7,7 +7,8 @@
 ## @param $1 (optional)
 ##     A callback that relies on 
 
-# NOTE: This relies on eval
+# NOTE: This relies on eval. Variables cannot be exported to the parent via 'source'.
+#       Use the callback parameter output variables when loop is complete.
 
 source init-retroarch-helpers.sh
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source build-platforms-lists.sh
+source init-retroarch-helpers.sh
 
 # Parse the list of names into an array and strip them of wrapping quotes. 
 IFS=";"; declare -a ARRAY=($RETROARCH_PLATFORMS); unset IFS

@@ -1,0 +1,57 @@
+## This is an associative mapping from Retroarch core systems names to 
+## EmulationStation theme/platform codes. 
+##
+## It is currently created by hand, using list-core-systems.sh, 
+## after installing all stable ppa cores.  Some obvious entries i.e. Gamecube have been added.
+
+## Atari
+atari7800=Atari 7800
+atari2600=Atari 2600
+atarilynx=Lynx
+
+## Neo Geo
+neogeo=Neo Geo
+ngpc=Neo Geo Pocket (Color)
+
+## Nintendo
+nes=Nintendo Entertainment System
+snes=Super Nintendo Entertainment System
+n64=Nintendo 64
+gc=Gamecube
+
+gb;gbc=Game Boy/Game Boy Color
+gba=Game Boy Advance
+nds=Nintendo DS
+vboy=Virtual Boy
+
+## Sega
+mastersystem;genesis=Sega 8/16-bit (Various)
+mastersystem;genesis;sega32x=Sega 8/16-bit + 32X (Various)
+saturn=Saturn
+
+## Sony
+psp=PSP
+psx=PlayStation
+
+## Misc
+3do=3DO
+arcade=Arcade (various)
+msx;colecovision=MSX/SVI/ColecoVision/SG-1000
+pcengine=PC Engine/PCE-CD
+pcenginesg=PC Engine SuperGrafx
+pcfx=PC-FX
+wonderswan=WonderSwan/Color
+
+## Game engines
+#DOOM game engine
+#Quake game engine
+#Cave Story game engine
+
+## What do?
+#2048 game clone
+#Game & Watch
+#MULTI (various)
+#CP System I
+#CP System II
+
+

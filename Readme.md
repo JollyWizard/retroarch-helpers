@@ -43,8 +43,12 @@ The project is currently divided into two sections. All work is currently proof 
 
 * **[helpers](src/bash/helpers)**  
   
-  This is my first nights work on the project. With help from the forums, I found the data files where the cores are described. I finished the night with scripts that can list the cores ([i.e.](src/bash/helpers/list-core-systems.sh)) currently installed on the system.  These are dependent on a ppa install standard environment.
-  
+  This is where early work on the project is taking place.
+
+  * With help from the forums, I found the data files where the cores are described. I finished the first night with scripts that can list the cores ([i.e.](src/bash/helpers/list-core-systems.sh)) currently installed on the system.  These are dependent on a ppa install standard environment.
+  * More work centered on making the scripts run consistently and independent of working directory.  Also, focus on DRY, and system for debug output..
+  * With things a little cleaner, I compiled a list of the installed core system_names, and generated a file which assigns the long form names to brief identifiers based on emulationstation conventions.  I then worked on mapping each core to those identifiers.  During this phase, I continued to streamline the interaction and dependencies between scripts.
+
 * **[setup](src/bash/setup)**  
       
   Right now, this is just a helper script to install all retroarch resources from the ppa.  Later, I might add more fine-tuned

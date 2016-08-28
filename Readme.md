@@ -58,6 +58,13 @@ The project is currently divided into two sections. All work is currently proof 
   the scripts are installed as system resources.
  
 - - -
+## Debug Mode
+
+if `$DEBUG` is set/non-empty, detailed processing information will appear on stderr, colored in yellow.
+
+This must be set outside of the provided scripts.
+
+- - -
   
 Ya'll come back now,
 - Jolly Wizard

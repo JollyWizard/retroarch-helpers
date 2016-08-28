@@ -27,6 +27,8 @@ if [ -z "$RETROARCH_HELPERS" ]; then
     export RETROARCH_HELPERS=`pwd`
 
     source find-retroarch-dirs.sh
+    source build-systems-list.sh
+    source build-platforms-list.sh
 
     debug SETUP: Retroarch-Helpers
 

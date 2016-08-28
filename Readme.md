@@ -39,13 +39,13 @@ I primarily use DS3 controllers on Linux Mint.  I want those to work on retroarc
 
 ## Current State
 
-The project is currently divided into two sections
+The project is currently divided into two sections. All work is currently proof of concept and not well documented.
 
-* **[helpers](src/main/helpers/bash)**  
+* **[helpers](src/helpers/bash)**  
   
-  This is my first nights work on the project. With help from the forums, I found the data files where the cores are described. I finished the night with scripts that list the cores currently installed on the system.  These are dependent on a ppa install standard environment.
+  This is my first nights work on the project. With help from the forums, I found the data files where the cores are described. I finished the night with scripts that can list the cores ([i.e.](src/helpers/bash/list-core-systems.sh)) currently installed on the system.  These are dependent on a ppa install standard environment.
   
-* **[setup](src/main/setup/bash)**  
+* **[setup](src/setup/bash)**  
       
   Right now, this is just a helper script to install all retroarch resources from the ppa.  Later, I might add more fine-tuned
   install options.

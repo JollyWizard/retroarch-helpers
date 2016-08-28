@@ -2,11 +2,11 @@
 
 source init-retroarch-helpers.sh
 
-unique_systems=$RETROARCH_HELPERS/core-unique-systems.sh
+analyze_systems=$RETROARCH_HELPERS/core-analyze-systems.sh
 
 # Compile system list to session variables
 ##
-export RETROARCH_SYSTEMS=$(cat $unique_systems | source for-each-core.sh 'echo $systems')
+export RETROARCH_SYSTEMS=$(cat $analyze_systems | source for-each-core.sh 'echo $systems')
 
 
 

@@ -5,9 +5,11 @@
 ## file details as script variables
 ##
 ## @param $1 (optional)
-##     A callback that relies on 
+##     A callback to be executed after the loop is complete.
+##     If the calling script has set parameters, they will still be here unless scrubbed/replaced.
+##     Use shift or explict param value of "" to prevent errors.
 
-# NOTE: This relies on eval. Variables cannot be exported to the parent via 'source'.
+# NOTE: This macro relies on eval. Variables cannot be exported to the parent via 'source'.
 #       Use the callback parameter output variables when loop is complete.
 
 source init-retroarch-helpers.sh
